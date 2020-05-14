@@ -1,0 +1,33 @@
+magick mogrify -crop 2000x3000+0+4190 -path ./ *.jpg
+
+magick mogrify -crop 50%x50% +0+4190 -path ./ *.jpg
+
+
+https://deparkes.co.uk/2015/04/30/batch-crop-images-with-imagemagick/
+
+
+convert rose: -gravity south -crop 100x20% +repage bottom.png
+
+magick mogrify -gravity north -crop 100x80% +repage *.jpg
+
+
+
+
+
+
+
+
+
+magick  mogrify -format jpg   *.pdf                       !!!!!!!!!!!
+
+magick mogrify -gravity north -crop 100x40% +repage *.jpg !!!!!!!!!!!
+
+magick mogrify -gravity east -crop 85x100% +repage *.jpg !!!!!!!!!!!
+
+magick mogrify -crop 3x4@  +repage *.jpg -set filename:original %t +adjoin %[filename:original].jpg !!!!!!!!!!!!!!
+
+magick mogrify -strip -interlace Plane -gaussian-blur 0.05 -quality 80% *.jpg
+
+
+magick mogrify -strip -interlace Plane -sampling-factor 4:2:0 -quality 80% *.jpg
+

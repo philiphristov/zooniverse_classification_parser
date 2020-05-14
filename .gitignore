@@ -1,0 +1,10 @@
+
+current_results/
+subject_data/
+
+*.txt
+*.pth
+*.csv
+*.png
+*.jpeg
+*.jpg

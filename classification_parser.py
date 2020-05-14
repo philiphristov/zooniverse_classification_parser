@@ -21,7 +21,7 @@ for index, row in df.iterrows():
 	values = annotation["value"]
 
 	subject_key, subject_value =  next(iter( subject_data.items() ))
-	image_name = "testing/" + subject_value["current_subject_number"]
+	image_name = "subject_data/" + subject_value["current_subject_number"]
 
 	name = subject_value["current_subject_number"].replace(".jpg", "")
 	file_name = "current_results/" +  name + "-(current markings)" + ".png"

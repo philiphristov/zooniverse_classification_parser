@@ -20,6 +20,11 @@ for index, row in df.iterrows():
 	subject_data = json.loads(row['subject_data'])
 	values = annotation["value"]
 
+	author = row['user_name']
+	user_id = row['user_id']
+	created_at = row['created_at']
+	classification_id = row['classification_id']
+
 	subject_key, subject_value =  next(iter( subject_data.items() ))
 
 	if "current_subject_number" in subject_value:
@@ -46,12 +51,15 @@ for index, row in df.iterrows():
 			detail_number = value["details"][0]["value"]
 			detail_transcription = value["details"][1]["value"]
 
-			if detail_number != "" and detail_transcription != "":
-				print("map nr: {}".format(detail_number))
+			print("map nr: {}".format(detail_number))
+			print("map nr: {}".format(detail_transcription))
+
+			if detail_transcription != "": #	detail_number != "" and
+
 				map_id = subject_value["current_subject_number"].split("#")[1]
 				map_id = map_id.split("-")[0]
 
-				parsed_data.append({"subject_id": subject_value["current_subject_number"], "key": str(key),"map_id":map_id, "map_number":detail_number, "transcription":detail_transcription})
+				parsed_data.append({"classification_id" : classification_id, "user": author, "user_id": user_id, "created_at": created_at, "subject_id": subject_value["current_subject_number"], "key": str(key),"map_id":map_id, "map_number":detail_number, "transcription":detail_transcription})
 
 			# plot visualisation
 			rect = matplotlib.patches.Rectangle((current_x,current_y),current_width,current_height, edgecolor='r', facecolor="none")

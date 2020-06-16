@@ -1,14 +1,18 @@
-;subject_id;key;map_id;map_number;transcription
-0;AIS#476-1.jpg;0;476;9;ilts le?-/n$ts
-1;AIS#476-1.jpg;1;476;14;il le/ndal
-2;AIS#476-1.jpg;2;476;3;le(/ndis$
-3;AIS#476-1.jpg;3;476;5;ils$ le(/nda1ts
-4;AIS#476-1.jpg;4;476;16;is$ le(/nda1ls
-5;AIS#476-1.jpg;5;476;25;its le/nda1ls
-6;AIS#476-1.jpg;6;476;27;* it|1s lä/nda1nts
-7;AIS#476-1.jpg;7;476;19;"ils le(/nts ; ün le(/n$"
-8;AIS#476-1.jpg;8;476;7;i(ls o1?-/fs$ d plu/a1t
-9;AIS#511-0.jpg;0;511;10;in urla/wn
-10;AIS#501-9.jpg;0;501;160;lu krupa-/s?
-11;AIS#501-9.jpg;1;501;181;lu kurba-/s?
-12;AIS#501-9.jpg;2;501;190;kro(-/vu
+;classification_id;user;user_id;created_at;subject_id;key;map_id;map_number;transcription
+0;184316562;not-logged-in-d1ae8cbd251a6a4e0c47;;2019-09-25 09:33:41 UTC;AIS#476-1.jpg;0;476;9;ilts le?-/n$ts
+1;184316562;not-logged-in-d1ae8cbd251a6a4e0c47;;2019-09-25 09:33:41 UTC;AIS#476-1.jpg;1;476;14;il le/ndal
+2;184316562;not-logged-in-d1ae8cbd251a6a4e0c47;;2019-09-25 09:33:41 UTC;AIS#476-1.jpg;2;476;3;le(/ndis$
+3;184316562;not-logged-in-d1ae8cbd251a6a4e0c47;;2019-09-25 09:33:41 UTC;AIS#476-1.jpg;3;476;5;ils$ le(/nda1ts
+4;184316562;not-logged-in-d1ae8cbd251a6a4e0c47;;2019-09-25 09:33:41 UTC;AIS#476-1.jpg;4;476;16;is$ le(/nda1ls
+5;184316562;not-logged-in-d1ae8cbd251a6a4e0c47;;2019-09-25 09:33:41 UTC;AIS#476-1.jpg;5;476;25;its le/nda1ls
+6;184316562;not-logged-in-d1ae8cbd251a6a4e0c47;;2019-09-25 09:33:41 UTC;AIS#476-1.jpg;6;476;27;"* it|1s lä/nda1nts
+
+
+
+"
+7;184316562;not-logged-in-d1ae8cbd251a6a4e0c47;;2019-09-25 09:33:41 UTC;AIS#476-1.jpg;7;476;19;"ils le(/nts ; ün le(/n$"
+8;184316562;not-logged-in-d1ae8cbd251a6a4e0c47;;2019-09-25 09:33:41 UTC;AIS#476-1.jpg;8;476;7;i(ls o1?-/fs$ d plu/a1t
+9;250770385;not-logged-in-2b643817888981ae46be;;2020-06-11 07:32:14 UTC;AIS#511-0.jpg;0;511;10;in urla/wn
+10;252187302;not-logged-in-2ae16791f9a97127faa8;;2020-06-16 09:21:00 UTC;AIS#501-9.jpg;0;501;160;lu krupa-/s?
+11;252187302;not-logged-in-2ae16791f9a97127faa8;;2020-06-16 09:21:00 UTC;AIS#501-9.jpg;1;501;181;lu kurba-/s?
+12;252187302;not-logged-in-2ae16791f9a97127faa8;;2020-06-16 09:21:00 UTC;AIS#501-9.jpg;2;501;190;kro(-/vu

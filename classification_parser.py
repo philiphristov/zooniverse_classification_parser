@@ -11,7 +11,9 @@ from PIL import Image
 
 
 def parse_zooniverse_csv():
-
+	"""
+	Reads the Zooniverse Data Export and parsed the Classifications in a wellformed CSV File
+	"""
 	parsed_data = []
 	df = pandas.read_csv("verbaalpina-classifications.csv")
 	annotations = df["annotations"]
@@ -65,6 +67,10 @@ def parse_zooniverse_csv():
 
 
 def crop_annotations():
+	"""
+	Reads the well parsed CSV, and the images from the subject set (need to be added in the main folder as "subject data")
+	outputs JPG Images of the markings done in the classinfications
+	"""
 	df = pandas.read_csv("verbaalpina-classifications.csv")
 	annotations = df["annotations"]
 	subject_data = df["subject_data"]
